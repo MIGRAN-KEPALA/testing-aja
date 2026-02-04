@@ -1,0 +1,22 @@
+{
+  "name": "discord-key-system-backend",
+  "version": "1.0.0",
+  "description": "Discord bot key system with Roblox binding, HWID, and payment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "node-cron": "^3.0.3",
+    "crypto": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
